@@ -110,7 +110,7 @@ public class InsertCollection {
                 throw new RuntimeException(e.getMessage());
             }
             long endTime = System.currentTimeMillis();
-            logger.info("Insert " +batchSize +" cost:" + (endTime - startTime) / 1000.00 + " seconds,has insert "+(r+1)*batchSize);
+            // logger.info("Insert " +batchSize +" cost:" + (endTime - startTime) / 1000.00 + " seconds,has insert "+(r+1)*batchSize);
 
         }
         long endTimeTotal = System.currentTimeMillis();
